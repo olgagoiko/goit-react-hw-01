@@ -2,23 +2,25 @@
   border: 2px solid black;
   border-radius: 20px;
   margin: 20px;
+  width: 350px;
 }
 
 .imgWrapper {
   text-align: center;
   img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 0.5px solid black;
     background-color: darkslategray;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
   }
 }
 
 .name {
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .items {
@@ -32,7 +34,7 @@
   background-color: dimgrey;
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 15px;
 
   margin: auto;
   display: flex;
