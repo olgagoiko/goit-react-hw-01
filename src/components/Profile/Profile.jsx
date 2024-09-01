@@ -7,7 +7,7 @@ const Profile = ({ name, tag, location, image, stats }) => {
       <div className={s.imgWrapper}>
         <img className={s.avatar} src={image} alt={name} />
         <p className={s.name}>{name}</p>
-        <p className={s.tag}>{tag}</p>
+        <p className={s.tag}>@{tag}</p>
         <p className={s.location}>{location}</p>
       </div>
 
