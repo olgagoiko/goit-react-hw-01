@@ -1,7 +1,7 @@
 import s from './FriendList.module.css';
 import FriendListItem from '../FriendListItem/FriendListItem';
 
-const FriendList = friends => {
+const FriendList = ({ friends }) => {
   return (
     <div className={s.friendsWrapper}>
       <ul className={s.friendList}>
